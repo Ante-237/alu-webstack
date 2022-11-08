@@ -22,7 +22,7 @@ do_lookup_ip () {
 
 DOMAIN=$1
 SUB=$2
-collection=("lb-01" "web-01" "web-02" "www")
+collection=("www" "lb-01" "web-01" "web-02")
 
 
 do_lookup_ip $1 $2
